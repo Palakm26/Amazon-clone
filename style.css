@@ -14,15 +14,25 @@
 .nav-logo{
     height: 50px;
     width: 100px;
+    display: flex;
+    font-size: 1.1rem;
+    align-items: center;
 }
 .logo{
-    background-image: url("amazon_logo.png");
+    background-image: url(amazon_logo.png);
     background-size: cover;
     height: 50px;
     width: 100%;
+    display: flex;
+}
+.dotin{
+    position: relative;
+    margin-left: -6px;
+    margin-top: -4px;
 }
 .border{
     border: 2px solid transparent;
+    padding: 10px;
 }
 .border:hover{
     border: 2px solid white;
@@ -82,13 +92,21 @@
     border: 2px solid orange;
 }
 /* box4 */
-.lang{
-    width: 55px;
-    color: #d6d6d6;
-}
 .language{
-    background-color: #0f1111;
-    color: white;
+    width: 60px;
+    color: #d6d6d6;
+    display: flex;
+    
+}
+.language p{
+    font-size: 0.8 rem;
+
+}
+.language-image{
+    width: 20px;
+}
+.language-image img{
+    width: 100%;
 }
 
 /* box5 */
@@ -124,12 +142,17 @@ span{
     width: 90%;
     font-size: 0.9rem;
 }
+.panel-op a{
+    color: white;
+    text-decoration: none;
+}
 /* hero-section */
 .hero-section{
-    background-image: url(Hero.png);
+    background-image: url(Images/Hero.png);
     height: 350px;
     background-size: cover;
 }
+
 /* shop-section boxex */
 
 .shop-section{
